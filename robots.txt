@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://zhenshiyitian.github.io/zhenshiyi.tian.github.io/sitemap.xml
+Sitemap: https://zhenshiyitian.github.io/sitemap.xml

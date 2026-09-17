@@ -8,4 +8,4 @@ Run `node preview.mjs` in this repository, then open http://127.0.0.1:8000. Pres
 
 ## GitHub Pages
 
-In **Settings → Pages**, select **Deploy from a branch**, then **main** and **/(root)**. GitHub Pages will publish this repository at https://zhenshiyitian.github.io/zhenshiyi.tian.github.io/. The `.nojekyll` file makes GitHub serve the static files directly.
+GitHub Pages publishes this repository at https://zhenshiyitian.github.io/. The `.nojekyll` file makes GitHub serve the static files directly.
