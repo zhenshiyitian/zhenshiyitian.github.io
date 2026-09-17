@@ -1,6 +1,6 @@
 # Zhenshiyi Tian — academic homepage
 
-This repository contains the static source for [Zhenshiyi Tian's academic homepage](https://zhenshiyitian.github.io/zhenshiyi.tian.github.io/).
+This repository contains the static source for [Zhenshiyi Tian's academic homepage](https://zhenshiyitian.github.io/).
 
 ## Local preview
 
