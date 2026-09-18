@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 350" shape-rendering="crispEdges" role="img" aria-label="Pixel art of a resilient port with cranes, containers, and a cargo ship">
+  <defs><pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#b9dce4" stroke-width="1"/></pattern></defs>
+  <rect width="430" height="350" fill="#d8eff1"/><rect width="430" height="350" fill="url(#grid)"/>
+  <path d="M0 251h430v99H0z" fill="#75bccc"/>
+  <path d="M0 276h45v-10h44v10h48v-10h48v10h48v-10h48v10h48v-10h48v10h53M0 315h57v-10h50v10h53v-10h52v10h54v-10h49v10h56v-10h59" fill="none" stroke="#3c8aa3" stroke-width="9"/>
+  <path d="M0 206h430v17H0z" fill="#173b54"/><path d="M0 223h430v18H0z" fill="#8fcbb7"/><path d="M20 241h18v25H20zM392 241h18v25h-18z" fill="#173b54"/>
+  <path d="M61 199V71h10v128M62 73h187v9H62M177 81v57M236 81v35" fill="none" stroke="#173b54" stroke-width="7"/>
+  <path d="M42 70h39l-19-22z" fill="#173b54"/><path d="M177 138h34v10h-34zM236 116h27v10h-27z" fill="#f2a6a0" stroke="#173b54" stroke-width="4"/>
+  <path d="M288 203V91h9v112M289 96h116v9H289M369 105v59" fill="none" stroke="#173b54" stroke-width="7"/>
+  <path d="M279 91h27l-14-18z" fill="#173b54"/><path d="M354 164h31v10h-31z" fill="#f2a6a0" stroke="#173b54" stroke-width="4"/>
+  <g stroke="#173b54" stroke-width="4"><rect x="97" y="169" width="43" height="29" fill="#f2a6a0"/><rect x="143" y="169" width="43" height="29" fill="#9ce2cc"/><rect x="189" y="169" width="43" height="29" fill="#f9fefd"/><rect x="119" y="137" width="43" height="29" fill="#9ce2cc"/><rect x="165" y="137" width="43" height="29" fill="#f2a6a0"/><rect x="284" y="170" width="43" height="28" fill="#9ce2cc"/><rect x="330" y="170" width="43" height="28" fill="#f9fefd"/></g>
+  <g stroke="#173b54" stroke-width="2"><path d="M110 174v19m9-19v19m9-19v19m28-19v19m9-19v19m9-19v19m28-19v19m9-19v19m9-19v19M132 142v18m9-18v18m10-18v18m27-18v18m9-18v18m9-18v18M297 176v17m9-17v17m9-17v17m28-17v17m9-17v17m9-17v17"/></g>
+  <path d="M79 243h264l-21 37H107z" fill="#173b54"/><path d="M95 247h232l-13 21H109z" fill="#f9fefd"/>
+  <rect x="144" y="222" width="115" height="22" fill="#f2a6a0" stroke="#173b54" stroke-width="4"/><rect x="170" y="211" width="78" height="11" fill="#9ce2cc" stroke="#173b54" stroke-width="3"/>
+  <path d="M0 293h47v-9h45v9h52v-9h48v9h53v-9h48v9h52v-9h49v9h36" fill="none" stroke="#f9fefd" stroke-width="6"/>
+  <rect x="18" y="17" width="150" height="25" fill="#f9fefd" stroke="#173b54" stroke-width="3"/><text x="27" y="35" fill="#173b54" font-family="monospace" font-size="12" font-weight="bold">PORT / 005</text>
+</svg>

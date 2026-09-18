@@ -109,3 +109,15 @@ a:focus-visible,button:focus-visible{outline-color:#e78c91}
 
 .tool-chips a{transition:transform .15s,box-shadow .15s,background .15s}
 .tool-chips a:hover{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--ink);background:#c6eee4}
+
+/* Interactive field cards and the News link */
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+button.storm-card{display:block;padding:0;color:inherit;text-align:left;cursor:url('../img/pixel-cursor.svg') 2 2,pointer}
+button.storm-card:focus-visible{outline:4px solid #e78c91;outline-offset:8px}
+.field-card-image{display:block;width:100%;height:100%;object-fit:fill;image-rendering:pixelated}
+.field-card-long .storm-card-bottom strong{font-size:24px}
+.field-card-flip .field-card-image{animation:field-card-reveal .36s steps(5,end)}
+@keyframes field-card-reveal{from{opacity:.15;transform:scale(.96)}to{opacity:1;transform:scale(1)}}
+.main-nav a[aria-current="page"]{color:#b7566b}
+@media(max-width:540px){.main-nav a:nth-child(1){display:none}.field-card-long .storm-card-bottom strong{font-size:17px}}
+@media(prefers-reduced-motion:reduce){.field-card-flip .field-card-image{animation:none}}

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 350" shape-rendering="crispEdges">
+  <defs><pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#bbdfe4" stroke-width="1"/></pattern></defs>
+  <rect width="430" height="350" fill="#d8eff1"/><rect width="430" height="350" fill="url(#grid)"/>
+  <g fill="#7cb8c2" stroke="#173b54" stroke-width="5"><rect x="40" y="139" width="63" height="140"/><rect x="123" y="108" width="67" height="171"/><rect x="205" y="158" width="72" height="121"/><rect x="305" y="119" width="75" height="160"/></g>
+  <g fill="#eafcf7"><rect x="54" y="155" width="13" height="13"/><rect x="77" y="155" width="13" height="13"/><rect x="54" y="181" width="13" height="13"/><rect x="77" y="181" width="13" height="13"/><rect x="138" y="125" width="13" height="13"/><rect x="161" y="125" width="13" height="13"/><rect x="138" y="151" width="13" height="13"/><rect x="161" y="151" width="13" height="13"/><rect x="220" y="173" width="13" height="13"/><rect x="246" y="173" width="13" height="13"/><rect x="321" y="136" width="14" height="14"/><rect x="349" y="136" width="14" height="14"/></g>
+  <path d="M17 61h66v12h30v12h36M244 54h70v12h36v11h45" fill="none" stroke="#173b54" stroke-width="15" stroke-linecap="square"/>
+  <g fill="#3c8aa3"><rect x="75" y="96" width="7" height="19"/><rect x="98" y="111" width="7" height="19"/><rect x="262" y="94" width="7" height="19"/><rect x="298" y="100" width="7" height="19"/><rect x="359" y="93" width="7" height="19"/></g>
+  <path d="M0 258h44v-13h42v13h55v-18h48v15h42v-12h47v15h48v-13h46v15h58v90H0z" fill="#8acfe0" stroke="#173b54" stroke-width="5"/>
+  <path d="M0 285h51v-11h43v13h42v-13h46v14h44v-14h49v12h49v-11h45v13h61" fill="none" stroke="#3c8aa3" stroke-width="9"/>
+  <g fill="#dff6ee"><rect x="31" y="313" width="26" height="6"/><rect x="102" y="306" width="30" height="6"/><rect x="210" y="316" width="27" height="6"/><rect x="337" y="304" width="31" height="6"/></g>
+  <rect x="19" y="16" width="98" height="22" fill="#f9fefd" stroke="#173b54" stroke-width="3"/><text x="28" y="31" fill="#173b54" font-family="monospace" font-size="11" font-weight="bold">FLOOD / 003</text>
+</svg>

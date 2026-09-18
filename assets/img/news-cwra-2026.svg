@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" shape-rendering="crispEdges" role="img" aria-label="Pixel art of two flood models, rainfall, and water in Winnipeg">
+  <defs><pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#c4e4e8" stroke-width="1"/></pattern></defs>
+  <rect width="480" height="300" fill="#d9f1f2"/><rect width="480" height="300" fill="url(#grid)"/>
+  <path d="M30 48h95v13h30v16h-16v14H46V77H30zM290 34h97v15h29v15h-18v16H303V64h-13z" fill="#99c9d1" stroke="#173b54" stroke-width="5"/>
+  <g fill="#3c8aa3"><rect x="63" y="99" width="8" height="19"/><rect x="103" y="101" width="8" height="19"/><rect x="326" y="88" width="8" height="19"/><rect x="368" y="88" width="8" height="19"/></g>
+  <g stroke="#173b54" stroke-width="5"><rect x="83" y="128" width="132" height="92" fill="#f9fefd"/><rect x="265" y="128" width="132" height="92" fill="#f9fefd"/></g>
+  <g fill="#9ce2cc"><rect x="96" y="141" width="25" height="19"/><rect x="123" y="141" width="25" height="19"/><rect x="150" y="141" width="25" height="19"/><rect x="177" y="141" width="25" height="19"/><rect x="96" y="162" width="25" height="19"/><rect x="123" y="162" width="25" height="19"/><rect x="150" y="162" width="25" height="19"/><rect x="177" y="162" width="25" height="19"/><rect x="278" y="141" width="25" height="19"/><rect x="305" y="141" width="25" height="19"/><rect x="332" y="141" width="25" height="19"/><rect x="359" y="141" width="25" height="19"/><rect x="278" y="162" width="25" height="19"/><rect x="305" y="162" width="25" height="19"/><rect x="332" y="162" width="25" height="19"/><rect x="359" y="162" width="25" height="19"/></g>
+  <path d="M92 191h27v-12h27v12h27v-15h25M274 193h27v-15h27v15h28v-11h27" fill="none" stroke="#3c8aa3" stroke-width="10"/>
+  <rect x="208" y="168" width="64" height="14" fill="#173b54"/><path d="M250 155l18 20-18 20" fill="none" stroke="#173b54" stroke-width="9"/>
+  <path d="M0 244h45v-13h46v14h43v-12h45v13h48v-14h51v14h44v-13h46v13h49v-14h63v68H0z" fill="#7fc4d2" stroke="#173b54" stroke-width="5"/>
+  <path d="M0 272h41v-10h45v10h50v-10h45v10h49v-10h49v10h49v-10h46v10h55v-10h51" fill="none" stroke="#3c8aa3" stroke-width="8"/>
+  <rect x="18" y="17" width="104" height="26" fill="#f9fefd" stroke="#173b54" stroke-width="3"/><text x="31" y="35" font-family="monospace" font-size="15" font-weight="bold" fill="#173b54">CWRA 2026</text>
+</svg>

@@ -29,6 +29,7 @@
             <a href="#about">About</a>
             <a href="#publications">Publications</a>
             <a href="#footprint">Footprint</a>
+            <a href="news.html">News</a>
           </nav>
         </div>
       </header>
@@ -37,7 +38,7 @@
         <section class="hero" aria-labelledby="hero-title">
           <div class="hero-copy">
             <div class="pixel-kicker"><span class="status-square" aria-hidden="true"></span><span>RESEARCH PROFILE / 001</span></div>
-            <p class="hero-overline">Hello, world. I'm</p>
+            <p class="hero-overline">Hello</p>
             <h1 id="hero-title">Zhenshiyi<br /><span>Tian<span class="hero-period">.</span></span></h1>
             <div class="hero-field"><svg class="pixel-arrow field-icon" aria-hidden="true" focusable="false"><use href="#pixel-arrow-east" /></svg><span>COASTAL HAZARD SIMULATION</span></div>
             <p class="hero-intro">I study coastal hazards from tropical cyclones to extreme cold and Arctic conditions, using simulation to understand waves, flooding, and risks to coastal communities.</p>
@@ -48,30 +49,19 @@
             <div class="hero-meta"><span><b>BASE</b> <span>CANADA</span></span><span><b>DEGREE</b> <span>PHD · TSINGHUA</span></span></div>
           </div>
 
-          <div class="hero-visual" aria-hidden="true">
-            <div class="visual-corner corner-a"></div><div class="visual-corner corner-b"></div>
-            <figure class="pixel-avatar-card"><img src="assets/img/pixel-avatar-sprite.svg" width="128" height="128" alt="" /><figcaption>ZT / 01</figcaption></figure>
-            <article class="storm-card">
-              <div class="storm-card-head"><span>FIELD CARD // 01</span><span>◼ ◼ ◼</span></div>
+          <div class="hero-visual">
+            <div class="visual-corner corner-a" aria-hidden="true"></div><div class="visual-corner corner-b" aria-hidden="true"></div>
+            <figure class="pixel-avatar-card" aria-hidden="true"><img src="assets/img/pixel-avatar-sprite.svg" width="128" height="128" alt="" /><figcaption>ZT / 01</figcaption></figure>
+            <button class="storm-card" id="field-card" type="button" aria-label="Field card 1 of 5: Coastal Hazards. Click to show Tropical Cyclones.">
+              <div class="storm-card-head"><span id="field-card-count">FIELD CARD // 01 / 05</span><span>CLICK / NEXT</span></div>
               <div class="storm-screen">
-                <svg class="storm-pixel-art" viewBox="0 0 430 350" xmlns="http://www.w3.org/2000/svg">
-                  <defs><pattern id="screenGrid" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#badde1" stroke-width="1" /></pattern></defs>
-                  <rect width="430" height="350" fill="#d8eff1" /><rect width="430" height="350" fill="url(#screenGrid)" />
-                  <path d="M0 268H30V258H60V248H90V238H120V229H150V221H180V225H210V235H240V246H270V253H300V251H330V239H360V222H390V207H430" fill="none" stroke="#3c8aa3" stroke-width="7" stroke-linejoin="miter" />
-                  <path d="M0 295H55V290H85V281H115V271H155V269H185V279H215V290H255V302H290V303H320V294H350V278H390V258H430" fill="none" stroke="#7dbcc6" stroke-width="8" />
-                  <g fill="#9ce2cc" stroke="#173b54" stroke-width="5"><rect x="52" y="76" width="17" height="17" /><rect x="69" y="59" width="17" height="17" /><rect x="359" y="64" width="17" height="17" /><rect x="376" y="81" width="17" height="17" /></g>
-                  <path d="M112 110H132V90H172V70H232V80H262V100H282V130H292V160H282V190H262V210H232V220H202V210H182V190H172V170H182V150H202V140H222V150H232" fill="none" stroke="#225b77" stroke-width="22" stroke-linejoin="miter" stroke-linecap="square" />
-                  <path d="M122 110H142V90H182V80H222V90H252V110H272V140H282V160H272V180H252V200H222V210H202V200H192V180H202V160H222V150" fill="none" stroke="#83c8dd" stroke-width="11" stroke-linejoin="miter" stroke-linecap="square" />
-                  <rect x="202" y="141" width="24" height="24" fill="#eafcf7" stroke="#173b54" stroke-width="5" />
-                  <path d="M53 188H73V208H93M315 91H335V111H355" fill="none" stroke="#9edbd4" stroke-width="6" />
-                  <rect x="24" y="307" width="89" height="22" fill="#f9fefd" stroke="#173b54" stroke-width="3" /><text x="33" y="322" font-size="11" font-family="monospace" font-weight="700" fill="#173b54">SIM / 001</text>
-                  <rect x="346" y="307" width="58" height="22" fill="#9ce2cc" stroke="#173b54" stroke-width="3" /><text x="360" y="322" font-size="11" font-family="monospace" font-weight="700" fill="#173b54">LIVE</text>
-                </svg>
+                <img id="field-card-image" class="field-card-image" src="assets/img/card-coastal-hazards.svg" width="430" height="350" alt="" />
                 <span class="screen-cross cross-one">+</span><span class="screen-cross cross-two">+</span>
               </div>
-              <div class="storm-card-bottom"><div><small>FOCUS AREA</small><strong><span>COASTAL</span><br /><span>HAZARDS</span></strong></div><span class="card-dpad">✣</span></div>
-            </article>
-            <div class="visual-sticker sticker-bottom"><span>STATUS</span> <b>● ACTIVE</b></div>
+              <div class="storm-card-bottom"><div><small>FOCUS AREA</small><strong><span id="field-card-line-one">COASTAL</span><br /><span id="field-card-line-two">HAZARDS</span></strong></div><span class="card-dpad" aria-hidden="true">✣</span></div>
+            </button>
+            <span class="sr-only" id="field-card-status" aria-live="polite">Coastal Hazards</span>
+            <div class="visual-sticker sticker-bottom" aria-hidden="true"><span>STATUS</span> <b>● ACTIVE</b></div>
           </div>
         </section>
 
